@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+    context-path: /demo
+logging:
+  level:
+    web: DEBUG
+    org:
+      example:
+        springboot:
+          dao: DEBUG
